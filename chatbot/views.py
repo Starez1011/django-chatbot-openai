@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 from django.contrib import auth
 from .models import Chat
 from django.utils import timezone
-openai_api_key = 'atVut54rlVMhsHpRUPYT3BlbkV'
+openai_api_key = 'secrect_key'
 openai.api_key = openai_api_key
 
 def ask_openai(message):
